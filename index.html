@@ -205,6 +205,13 @@
 		document.querySelector(".cookies-button").addEventListener("click", function(){
 			$(".cookies").toggle();
 		});
+
+		// if user prefer dark theme
+		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    		$(document.body).addClass("dark-theme");
+    		$(".theme-light").toggle();
+			$(".theme").toggle();
+		}
 	</script>
 </body>
 </html>
