@@ -8,7 +8,8 @@ body {
 	margin: 0;
 	padding: 0;
 	transition: .1s;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
+	/* overflow-y: hidden; */
 }
 .no-select {
 	user-select: none;
@@ -76,7 +77,6 @@ body {
 }
 .landing-content {
 	padding: 23px;
-	width: 100vw;
 	border-radius: 25px;
 }
 .gradient-banner {
