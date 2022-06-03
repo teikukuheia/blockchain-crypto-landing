@@ -263,6 +263,66 @@ body {
 	margin-left: 20px;
 	font-weight: 600;
 }
+.dark-theme .active-option h1{
+	color: #FF6F00;
+}
+.dark-theme .active-option p {
+	color: #E1BEE7;
+}
 .logo-copyright {
 	width: 300px;
+}
+.coin-card {
+	border: 2px solid #E1BEE7;
+	border-radius: 12px;
+	padding: 40px 30px;
+	margin: 0 10px;
+}
+.no-border {
+	border: none;
+}
+.coin-card h2 {
+	color: black;
+}
+.coin-card h2, .coin-card p {
+	margin: 0;
+}
+.coin-card .price {
+	font-weight: 500;
+}
+.crypto-card {
+	height: 40px;
+	margin-right: 5px;
+}
+.card-margin {
+	margin: 10px 0;
+}
+.coin-card .currency-dollar {
+	background: rgba(0,0,0,.10);
+	padding: 3px 6px;
+	border-radius: 3px;
+	margin-left: 12px;
+}
+.coin-card .top-volume {
+	font-size: 14px;
+}
+.coin-card .price {
+	margin: 10px 0;
+}
+.coin-card .currency-grow, .coin-card .currency-fall {
+	font-size: 15px;
+	font-weight: 500;
+}
+.coin-card .card-grow {
+	height: 12px;
+	margin: 0 4px;
+}
+.coin-card .flex p {
+	color: rgba(0,0,0,.60);
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 20px;
+}
+.volume-sec {
+	margin-left: 15px;
 }

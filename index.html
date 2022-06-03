@@ -159,8 +159,66 @@
 			<div class="gallery flex align-center">
 				<img src="icons/coins-banner-image.svg" alt="">
 				<div class="gallery-card flex align-center">
-					<img class='gallery-image' src="icons/trending-coin.svg" alt="">
-					<img class='gallery-image-2' src="icons/out-of-vision-img.svg" alt="">
+				</div>
+				<div class="coin-card no-border">
+					<div class="flex card-margin">
+						<img src="icons/btc.svg" class="crypto-card" alt="">
+						<div class="flex column">
+						<div class="flex align-center crypto-currency-name-image-section"><h2>BTC</h2><div class="currency-dollar">USD</div></div>
+						<div class="flex align-center"><p class="top-volume">Top Volume</p></div></div>
+					</div>
+					
+					<h2 class="price">$ 12, 345, 678</h2>
+					<div class="flex align-center">
+						<div class="flex column">
+							<div class="flex align-center"><img src="icons/triangle.svg" class="card-grow"><div class="p currency-grow">3%</div></div>
+							<p>24h Change</p>
+						</div>
+						<div class="flex column volume-sec">
+							<p>123, 456, 789, 101</p>
+							<p>24h Volume</p>
+						</div>
+					</div>
+				</div>
+				<div class="coin-card">
+					<div class="flex card-margin">
+						<img src="icons/xrp.svg" class="crypto-card" alt="">
+						<div class="flex column">
+						<div class="flex align-center crypto-currency-name-image-section"><h2>XRP</h2><div class="currency-dollar">USD</div></div>
+						<div class="flex align-center"><p class="top-volume">Top Volume</p></div></div>
+					</div>
+					
+					<h2 class="price">$ 12, 345, 678</h2>
+					<div class="flex align-center">
+						<div class="flex column">
+							<div class="flex align-center"><img src="icons/triangle.svg" class="card-grow"><div class="p currency-grow">3%</div></div>
+							<p>24h Change</p>
+						</div>
+						<div class="flex column volume-sec">
+							<p>123, 456, 789, 101</p>
+							<p>24h Volume</p>
+						</div>
+					</div>
+				</div>
+				<div class="coin-card">
+					<div class="flex card-margin">
+						<img src="icons/iota.svg" class="crypto-card" alt="">
+						<div class="flex column">
+						<div class="flex align-center crypto-currency-name-image-section"><h2>IOTA</h2><div class="currency-dollar">USD</div></div>
+						<div class="flex align-center"><p class="top-volume">Top Volume</p></div></div>
+					</div>
+					
+					<h2 class="price">$ 12, 345, 678</h2>
+					<div class="flex align-center">
+						<div class="flex column">
+							<div class="flex align-center"><img src="icons/triangle.svg" class="card-grow"><div class="p currency-grow">3%</div></div>
+							<p>24h Change</p>
+						</div>
+						<div class="flex column volume-sec">
+							<p>123, 456, 789, 101</p>
+							<p>24h Volume</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -207,11 +265,11 @@
 		});
 
 		// if user prefer dark theme
-		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    		$(document.body).addClass("dark-theme");
-    		$(".theme-light").toggle();
-			$(".theme").toggle();
-		}
+		// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    	// 	$(document.body).addClass("dark-theme");
+    	// 	$(".theme-light").toggle();
+		// 	$(".theme").toggle();
+		// }
 	</script>
 </body>
 </html>
