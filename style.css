@@ -326,3 +326,16 @@ body {
 .volume-sec {
 	margin-left: 15px;
 }
+.dark-theme .coin-card {
+	background: #424242;
+	border: 2px solid #9c27b0;
+}
+.dark-theme .no-border {
+	border: none;
+}
+.dark-theme .coin-card .flex p {
+	color: rgba(255,255,255,.60);
+}
+.dark-theme .currency-dollar {
+	color: rgba(255,255,255,.70);
+}
